@@ -2,7 +2,12 @@
 
 The TiDropboxChooser module enables you to select files from Dropbox account and retrieve URL link of selected file.
 
-This project can be found on github at [https://github.com/wecobi/TiDropboxChooser] (here).
+This project can be found on github at [https://github.com/wecobi/TiDropboxChooser](here).
+
+### Get it [![gitTio](http://gitt.io/badge.svg)](http://gitt.io/component/ti.dropboxchooser)
+Download the latest distribution ZIP-file and consult the [Titanium Documentation](http://docs.appcelerator.com/platform/latest/#!/guide/Using_a_Module) on how install it, or simply use the [gitTio CLI](http://gitt.io/cli):
+
+`$ gittio install ti.dropboxchooser`
 
 ## Before you start
 
@@ -57,5 +62,5 @@ This project is licensed under the MIT approved License. For details please see 
 Code contributions are greatly appreciated, please submit a new [https://github.com/wecobi/TiDropboxChooser/pull/new/master](pull request)!
 
 ## References
-[https://www.dropbox.com/developers/downloads/sdks/chooser/android/dropbox-android-chooser-sdk-1.0.1.zip] (Dropbox Chooser Android SDK v1.0.1)
-[https://www.dropbox.com/developers/chooser] (https://www.dropbox.com/developers/chooser)
+* [https://www.dropbox.com/developers/downloads/sdks/chooser/android/dropbox-android-chooser-sdk-1.0.1.zip](Dropbox Chooser Android SDK v1.0.1)
+* [https://www.dropbox.com/developers/chooser](https://www.dropbox.com/developers/chooser)
