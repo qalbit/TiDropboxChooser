@@ -2,7 +2,7 @@
 
 The TiDropboxChooser module enables you to select files from Dropbox account and retrieve URL link of selected file.
 
-This project can be found on github at [https://github.com/wecobi/TiDropboxChooser](here).
+This project can be found on github at [https://github.com/wecobi/TiDropboxChooser] (here).
 
 ## Before you start
 
@@ -57,5 +57,5 @@ This project is licensed under the MIT approved License. For details please see 
 Code contributions are greatly appreciated, please submit a new [https://github.com/wecobi/TiDropboxChooser/pull/new/master](pull request)!
 
 ## References
-[https://www.dropbox.com/developers/downloads/sdks/chooser/android/dropbox-android-chooser-sdk-1.0.1.zip](Dropbox Chooser Android SDK v1.0.1)
-[https://www.dropbox.com/developers/chooser](https://www.dropbox.com/developers/chooser)
+[https://www.dropbox.com/developers/downloads/sdks/chooser/android/dropbox-android-chooser-sdk-1.0.1.zip] (Dropbox Chooser Android SDK v1.0.1)
+[https://www.dropbox.com/developers/chooser] (https://www.dropbox.com/developers/chooser)
