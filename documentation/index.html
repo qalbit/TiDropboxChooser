@@ -1,0 +1,65 @@
+<h1>TiDropboxChooser Module</h1>
+
+<p>The TiDropboxChooser module enables you to select files from Dropbox account and retrieve URL link of selected file.</p>
+
+<p>This project can be found on github at <a href="https://github.com/wecobi/TiDropboxChooser">here</a>.</p>
+
+<h2>Before you start</h2>
+
+<ul>
+<li>This is an Android module designed to work with Titanium SDK 7.0.1 or greater.</li>
+</ul>
+
+<h2>Accessing the TiDropboxChooser Module</h2>
+
+<p>To access this module from JavaScript, you would do the following:</p>
+<pre><code>
+var TiDropboxChooser = require("ti.dropboxchooser");
+</pre></code>
+
+<h3>Method</h3>
+
+<h4>Initialize</h4>
+
+<pre><code>
+TiDropboxChooser.init({
+	"appKey" : "YOUR_APP_KEY",
+	"resultType" : TiDropboxChooser.DIRECT_LINK
+});
+</pre></code>
+
+<p>You can create an request for initialize using below properties</p>
+<ul>
+<li><b>appKey</b> (Required) (String) Dropbox Application Key.</li>
+<li><b>resultType</b> (Optional) (Constant) TiDropboxChooser Defined Constant used to retrieve file path. (Default, <span>DIRECT_LINK</span>)</li>
+</ul>
+
+<h4>Open Dropbox Dialog</h4>
+
+<pre><code>
+// Open the Dropbox dialog to Read Remote File Url from Dropbox account. 
+// This method called after init().
+TiDropboxChooser.openDialog(function(e) {
+	if (e.resultCode == -1) {
+		var fileUrl = e.url || "";
+		// TODO REST CODE
+	}
+});
+</pre></code>
+
+
+<h3>Constant</h3>
+
+<h4>Dropbox resultType Constant</h4>
+<pre><code>PREVIEW_LINK</pre></code>
+<pre><code>DIRECT_LINK</pre></code>
+
+h2>Author</h2>
+<ul>
+<li>Abidhusain Chidi</li>
+<li>abidhusain.wecobi@gmail.com</li>
+</ul>
+
+<h2>Licensing & Support</h2>
+
+<p>This project is licensed under the MIT approved License. For details please see the license associated with each project.</p>

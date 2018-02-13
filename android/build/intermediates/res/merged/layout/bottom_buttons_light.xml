@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical">
+
+    <Button android:id="@+id/dbx_bottom_bar_cancel_button" style="@style/CommonButtonLightGray" android:layout_width="match_parent" android:layout_marginRight="@dimen/fileChooserButtonRight" android:layout_weight="1"/>
+
+    <Button android:id="@+id/dbx_bottom_bar_ok_button" style="@style/CommonButtonGreen" android:layout_width="match_parent" android:layout_marginLeft="@dimen/fileChooserButtonLeft" android:layout_weight="1"/>
+
+</LinearLayout>
