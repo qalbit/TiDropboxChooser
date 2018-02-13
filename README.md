@@ -59,8 +59,8 @@ TiDropboxChooser.openDialog(function(e) {
 This project is licensed under the MIT approved License. For details please see the license associated with each project.
 
 ## Contributing
-Code contributions are greatly appreciated, please submit a new [pull request] (https://github.com/wecobi/TiDropboxChooser/pull/new/master)!
+Code contributions are greatly appreciated, please submit a new  [pull request](https://github.com/wecobi/TiDropboxChooser/pull/new/master)!
 
 ## References
-* [Dropbox Chooser Android SDK v1.0.1] (https://www.dropbox.com/developers/downloads/sdks/chooser/android/dropbox-android-chooser-sdk-1.0.1.zip)
+* [Dropbox Chooser Android SDK v1.0.1](https://www.dropbox.com/developers/downloads/sdks/chooser/android/dropbox-android-chooser-sdk-1.0.1.zip)
 * [https://www.dropbox.com/developers/chooser](https://www.dropbox.com/developers/chooser)
